@@ -5,126 +5,57 @@
 <meta name="viewport" content="width=device-width"/>
 <style>
 /* GENERAL STYLING */
-html, body {
-margin: 0;
-padding: 0;
-}
-
-body{ 
-width:100% !important; 
-min-width: 100%;
--webkit-text-size-adjust:100%; 
--ms-text-size-adjust:100%; 
-margin:0; 
-padding:0;
-}
-
-table.body {
-height: 100%;
-width: 100%;
-}
-
-table.header {
-padding: 10px 0 0;
-width: 100%;
-position: relative;
-background-color: #000;
-}
-
-table.separator {
-height: 20px;
-width: 100%;
-}
+html, body {margin: 0;padding: 0;}
+body {width:100% !important; min-width: 100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+table.body {height: 100%; width: 100%;}
+table.header {padding: 10px 0 0; width: 100%; position: relative; background-color: #000;}
+table.separator {height: 20px; width: 100%;}
 
 /* HEADER SECTION */
 @media only screen and (max-width: 460px) {
-a.logo img {
-margin-bottom: 10px;
-}
-td[class="main_nav"] td {
-display: block;
-padding: 0 !important;
-}
-td[class="main_nav"] a {
-display: block;
-padding: 20px 0;
-border-top: 1px solid #999;
-}
+	a.logo img {margin-bottom: 10px;}
+	td[class="main_nav"] td {display: block; padding: 0 !important;}
+	td[class="main_nav"] a {display: block; padding: 20px 0; border-top: 1px solid #999;}
 }
 
 /* IMAGE SURROUND */
-@media only screen and (max-width: 599px) {
-td[class="surround"] img {
-width: 100%;
-height: auto !important;
-}
-td[class="surround"] img.cta {
-width: auto;
-}
-td[class="surround"] table,
-td[class="surround"] .row {
-width: 100%;
-}
-td[class="surround"] .img {
-display: block;
-float: left;
-width: 25%;
-}
-td[class="surround"] .middle {
-width: 50%;
-}
+@media only screen and (max-width: 640px) {
+	td[class="surround"] img {width: 100%; height: auto !important;}
+	td[class="surround"] img.cta {width: auto;}
+	td[class="surround"] table,td[class="surround"] .row {width: 100%;}
+	td[class="surround"] .img {display: block;float: left;width: 25%;}
+	td[class="surround"] .middle {width: 50%;}
 }
 @media only screen and (max-width: 550px) {
-td[class="surround"] .headline { font-size: 26px !important; }
-td[class="surround"] .body_copy { font-size: 14px !important; }
+	td[class="surround"] .headline { font-size: 26px !important; }
+	td[class="surround"] .body_copy { font-size: 14px !important; }
 }
 @media only screen and (max-width: 460px) {
-td[class="surround"] .row2 { padding: 40px 0; }
-td[class="surround"] .headline { font-size: 42px !important; }
-td[class="surround"] .body_copy { font-size: 18px !important; }
-td[class="surround"] .hide { display: none; }
-td[class="surround"] .img {
-width: 50%;
-}
-td[class="surround"] .img img {
-width: 100%;
-}
+	td[class="surround"] .row2 { padding: 40px 0; }
+	td[class="surround"] .headline { font-size: 42px !important; }
+	td[class="surround"] .body_copy { font-size: 18px !important; }
+	td[class="surround"] .hide { display: none; }
+	td[class="surround"] .img {width: 50%;}
+	td[class="surround"] .img img {width: 100%;}
 }
 
 /* 2 COLUMNS */
 @media only screen and (max-width: 640px) {
-td[class="twocols"] {
-padding: 0 10px;
-}
-}
-@media only screen and (max-width: 599px) {
-td[class="twocols"] table { width: 100%; }
-td[class="twocols"] .hero_image img {
-width: 100%;
-height: auto !important;
-}
+	td[class="twocols"] {padding: 0 10px;}
+	td[class="twocols"] table { width: 100%; }
+	td[class="twocols"] .hero_image img {width: 100%;height: auto !important;}
 }
 @media only screen and (max-width: 450px) {
-td[class="twocols"] .spacer { display: none; }
-td[class="twocols"] .col{
-width: 100%;
-display: block;
-}
-td[class="twocols"] .col:first-child { margin-bottom: 30px; }
-td[class="twocols"] .hero_image img { width: 100%; }
+	td[class="twocols"] .spacer { display: none; }
+	td[class="twocols"] .col{width: 100%; display: block;}
+	td[class="twocols"] .col:first-child { margin-bottom: 30px; }
+	td[class="twocols"] .hero_image img { width: 100%; }
 }
 
 /* SINGLE COLUMN */
 @media only screen and (max-width: 640px) {
-td[class="singlecol"] {
-padding: 0 10px;
-}
-}
-@media only screen and (max-width: 599px) {
-td[class="hero"] img {
-width: 100%;
-height: auto !important;
-}
+	td[class="singlecol"] {padding: 0 10px;}
+	td[class="hero"] img {width: 100%;height: auto !important;}
 }
 </style>
 </head>
